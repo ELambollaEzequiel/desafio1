@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <h1>Formulario de registro</h1>
+    <section>
+      <p>
+        <span>Nombre:</span>
+        <input type="text" />
+      </p>
+      <p>
+        <span>Apellidos:</span>
+        <input type="text" />
+      </p>
+      <p>
+        <span>Sexo: </span>
+        <label for="sexo1">
+          <input type="radio" name="sexo" id="masculino" />
+          hombre
+          <input type="radio" name="sexo" id="femenino" />
+          mujer
+        </label>
+      </p>
+      <p>
+        <span>Correo:</span>
+        <input type="email" name="correo" id="correo" />
+      </p>
+      <p>
+        <span>Poblacion :</span>
+        <select name="select" id="">
+          <option value="value1">Alicante</option>
+          <option value="value2">Argentina</option>
+          <option value="value3">Corea del sur</option>
+        </select>
+      </p>
+      <p>
+        <span>Descripcion:</span>
+        <textarea name="descripcion" id="" cols="50" rows="10"></textarea>
+      </p>
+      <p>
+        <span>
+          <input type="checkbox" name="enviarInfo" id="enviarInfo" />
+          Deseo recibir informacion sobre novedades y ofertas
+        </span>
+      </p>
+      <p>
+        <span>
+          <input type="checkbox" name="enviarInfo" id="enviarInfo" />
+          Declaro haber leido y aceptar las condicones generales del programa y
+          la normativa sobre proteccion de datos
+        </span>
+      </p>
+      <input type="button" value="Enviar" />
+    </section>
+  </body>
+</html>
